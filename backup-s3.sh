@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# export PGPASSWORD=${PGPASSWORD}
+export PGPASSWORD=${PGPASSWORD}
 export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
 export AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
-export AWS_DEFAULT_REGION=${aws_default_region}
+export AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
 export S3_BUCKET=andygodish
 export S3_PATH=psql_k3s_backups
 export TIMESTAMP=`date +%m-%d-%Y:%T`
